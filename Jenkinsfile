@@ -2,7 +2,7 @@ pipeline {
   agent {
     docker {
       image 'maven:3.3.9-jdk-8'
-      args '-v /home/dulip/.m2'
+      args '-v /home/dulip/workspace_duplo/jenkins'
     }
 
   }
